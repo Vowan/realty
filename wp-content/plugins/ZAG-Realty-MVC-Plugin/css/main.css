@@ -1,0 +1,147 @@
+/* vertical-centered text */
+
+body{
+    padding: 0px;
+}
+
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/* additional sections */
+
+#jumb_box1 {
+    background: darkblue;
+    color: white;
+    display: table;
+    height: 300px;
+    width: 100%;
+}
+
+#box2 {
+    background-color: #EA8200;
+    color: white;
+    height: 100%;
+}
+
+.blog {
+    padding: 0;
+}
+
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.goToTop {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 1;
+}
+
+#nav-top{
+    background-color: #27d5dd;
+}
+
+#nav-top .navbar-nav > li > a:hover,
+#nav-top .navbar-nav > li > a:focus {
+    color: #fff  !important;
+    background-color: #007acc !important;
+}
+
+#map {
+    height: 300px;
+    width: 100%; 
+}
+
+
+#controls {
+    position: relative;
+    width: 480px;
+}
+
+.label {
+    text-align: right;
+    font-weight: bold;
+    width: 100px;
+    color: #303030;
+}
+
+.user_avatar{
+    pointer-events: none;
+    cursor: default;
+}
+
+#user_photo{
+    padding: 0 !important;
+}
+
+
+#new-property-form .form-control{
+    height: 24px;
+}
+
+#new-property-form .input-group-addon{
+    padding: 0;
+}
+
+#new-property-form .col-xs-4{
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+#new-property-form .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#new-property-form input{
+    padding: 0 0 0 5px;
+}
+
+#new-property-form textarea{
+    height: 100px !important;
+}
+
+#new-property-form select{
+    padding: 0;
+    
+    
+}
+
+#room_add .row{
+    margin-bottom: 5px;
+}
+
+.banner{
+    width: 100%;
+    min-height: 190px;
+}
+
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 100px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+}
